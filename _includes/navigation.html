@@ -33,7 +33,7 @@
             {% endif %}
 
             <li class="list-group__item {% if false == forloop.last %}push-1-4{% endif %}">
-              <a class="milli {% if page.url == item.url %}current{% endif %} {{site-layout}}" href="{{site.baseurl}}{{item-url}}">
+              <a class="milli {% if page.url == item.url %}current{% endif %} {{site-layout}}" href="{{item-url}}">
                 {% if item.titleBefore %}{{ item.titleBefore }}: {% endif %}<em>{{ item.title }}</em>
               </a>
             </li>

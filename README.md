@@ -1,12 +1,13 @@
 # README
 
-## This is a semester project participating in the "Media and Culture" class for the MSc in Design and Digital Media (2009-2010) at the University of Edinburgh.
+## Semester project participating in the "Media and Culture" class for the MSc in Design and Digital Media (2009-2010) at the University of Edinburgh.
 **Written: Late 2009**
 
 **Website URL: [http://what-is-a-cyborg.nfshost.com](http://what-is-a-cyborg.nfshost.com)**
+
 **Git Repo:** [https://github.com/dchantzis/what-is-a-cyborg](https://github.com/dchantzis/what-is-a-cyborg)
 
-**Website created using the Jekyll Template "Institute Paper" [https://github.com/dchantzis/jekyll-academic-paper](https://github.com/dchantzis/jekyll-academic-paper)**
+**Website created using the Jekyll Template "Academic Paper" [https://github.com/dchantzis/jekyll-academic-paper](https://github.com/dchantzis/jekyll-academic-paper)**
 
 ### Subject
 

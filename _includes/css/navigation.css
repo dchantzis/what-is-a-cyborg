@@ -27,20 +27,6 @@
   transform-style: preserve-3d;
 }
 
-.mobile-nav-toggle-label:hover {
-  -moz-animation: pulse 150ms steps(4) 4 alternate;
-  -o-animation: pulse 150ms steps(4) 4 alternate;
-  -ms-animation: pulse 150ms steps(4) 4 alternate;
-  -webkit-animation: pulse 150ms steps(4) 4 alternate;
-  animation:pulse 150ms steps(4) 4 alternate;
-
-  -ms-transform: rotateY(360deg);
-  -moz-transform: rotateY(360deg);
-  -o-transform: rotateY(360deg);
-  -webkit-transform: rotateY(360deg);
-  transform: rotateY(360deg);
-}
-
 .top-bar,
 .middle-bar,
 .bottom-bar {
@@ -137,6 +123,20 @@ a:focus {
 }
 
 @media only screen and (min-width: 38em) {
+
+  .mobile-nav-toggle-label:hover {
+    -moz-animation: pulse 150ms steps(4) 4 alternate;
+    -o-animation: pulse 150ms steps(4) 4 alternate;
+    -ms-animation: pulse 150ms steps(4) 4 alternate;
+    -webkit-animation: pulse 150ms steps(4) 4 alternate;
+    animation:pulse 150ms steps(4) 4 alternate;
+
+    -ms-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -o-transform: rotateY(360deg);
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+  }
 
   .mobile-nav-toggle-label {
     top: 1.4rem;
